@@ -1,0 +1,8 @@
+DataProvider/ConfigurationDataProvider.class
+Tescases/VerifyHomePage.class
+Factory/DataProviderFactory.class
+DataProvider/ExcelDataProvider.class
+Tescases/VerifyHomePageWithScreenshot.class
+Factory/BrowserFactory.class
+Utility/helper.class
+Pages/FbHomePage.class
