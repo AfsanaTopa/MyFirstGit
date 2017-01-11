@@ -37,7 +37,7 @@ public class VerifyHomePageWithScreenshot {
 	@BeforeMethod
 	public void SetUp() throws IOException{
 		/*report=new ExtentReports("./Report/HomePageLo&Report.html");
-	Logger=report.startTest("Home Page Verification Test case");
+	Logger=report.startTest("Home Page Verification Test case VERIFIED");
 
 	
 	
