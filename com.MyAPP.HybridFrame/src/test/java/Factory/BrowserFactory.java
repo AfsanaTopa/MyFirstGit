@@ -14,8 +14,8 @@ public class BrowserFactory {
 	
 	public static WebDriver getBrwoser(String BrowserName) throws IOException{
 		if (BrowserName.equalsIgnoreCase("firefox")){
-		
-			System.setProperty("webdriver.firefox.marionette",DataProviderFactory.getConfig().getFirefoxPath());
+// 		webdriver.firefox.marionette
+			System.setProperty("webdriver.gecko.driver",DataProviderFactory.getConfig().getFirefoxPath());
 			driver =(WebDriver) new FirefoxDriver();
 		}
 		else if (BrowserName.equalsIgnoreCase("chrome")){
