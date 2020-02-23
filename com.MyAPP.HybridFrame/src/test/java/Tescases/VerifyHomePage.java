@@ -62,7 +62,7 @@ public class VerifyHomePage {
 		
 		
 		//Open Browser 
-		WebDriver driver=BrowserFactory.getBrwoser("firefox");
+		WebDriver driver=BrowserFactory.getBrwoser("chrome");
 		
 
 	  driver.get(DataProviderFactory.getConfig().getApplicationUrl());
