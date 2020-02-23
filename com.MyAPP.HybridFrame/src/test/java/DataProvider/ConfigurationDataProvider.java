@@ -44,7 +44,7 @@ public class ConfigurationDataProvider {
 		return firefoxpath;
 		}
 	public String getChromePath(){
-		String chromepath=pro.getProperty("FirefoxPath");
+		String chromepath=pro.getProperty("ChromePath");
 		return chromepath;
 		}
 
