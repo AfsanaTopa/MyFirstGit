@@ -3,7 +3,7 @@
 <suite name="SmokeTestSuite">
   <test name="SmokeTest">
     <classes>
-      <class name="Tescases.VerifyHomePageWithScreenshot"/>
+<!--       <class name="Tescases.VerifyHomePageWithScreenshot"/> -->
       <class name="Tescases.VerifyHomePage"/>
     </classes>
   </test> <!-- SmokeTest -->
