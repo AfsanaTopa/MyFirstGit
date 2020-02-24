@@ -22,6 +22,15 @@ public class BrowserFactory {
 			System.setProperty("webdriver.chrome.driver",DataProviderFactory.getConfig().getChromePath());
 			driver = (WebDriver) new ChromeDriver();
 		}
+		else if(BrowserName.equalsIgnoreCase("chromeHeadless")){
+			ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("disable-gpu");
+//      chromeOptions.addArguments("window-size=1400,2100"); // Linux should be activate
+        System.setProperty("webdriver.chrome.driver",DataProviderFactory.getConfig().getChromeHeadlessPath());
+        driver = new ChromeDriver(chromeOptions);
+		}
 		
 		return driver;
 		
