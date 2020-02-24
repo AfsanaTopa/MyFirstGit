@@ -47,5 +47,9 @@ public class ConfigurationDataProvider {
 		String chromepath=pro.getProperty("ChromePath");
 		return chromepath;
 		}
+	public String getChromeHeadlessPath(){
+		String chromeHeadlesspath=pro.getProperty("ChromeHeadlessPath");
+		return chromeHeadlesspath;
+	}
 
 }
